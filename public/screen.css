@@ -6,4 +6,43 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: rgb(240, 211, 174);
+}
+
+#title {
+  display:flex;
+  justify-content:center;
+  margin: 5em;
+  color: red;
+  font-size:50px;
+}
+
+
+.overallscore {
+  Display:flex;
+  Flex-direction:column;
+  align-content: center;
+  font-size: 25px;
+}
+
+#lineup {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin: 5em;
+  font-size: 16px;
+  color:navy;
+}
+
+.name {
+  display: flex;
+  justify-content:space-between;
+  margin: 5em;
+}
+
+.addstyle {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
